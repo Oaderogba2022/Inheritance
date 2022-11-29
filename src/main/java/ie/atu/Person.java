@@ -40,10 +40,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Inherit{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", number=" + number +
-                '}';
+        return "name" + name +"" + "address" + address + " " + "number" + number;
     }
 }
