@@ -40,6 +40,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return "name" + name +"" + "address" + address + " " + "number" + number;
+        return "name" + name +" " + "address" + address + " " + "number" + number;
     }
 }

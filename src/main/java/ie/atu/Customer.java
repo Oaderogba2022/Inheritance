@@ -22,7 +22,7 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        return super.toString() + " " + "customerNumber='"+ customerNumber + " " + "mailinglist=" + mailingList;
+        return super.toString() + " " + " customerNumber='"+ customerNumber + " " + "mailinglist=" + mailingList;
 
     }
 }
